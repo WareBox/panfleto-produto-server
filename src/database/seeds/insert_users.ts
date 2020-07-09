@@ -5,7 +5,7 @@ export async function seed(knex: Knex){
     { 
     nome: 'admnistrador',
     login: 'warebox',
-    email: 'warebox@gmail.com',
+    email: 'edinho.029@gmail.com',
     senha: 'warebox123.',
     whatsapp: '15998442471',
     foto: '',
@@ -18,7 +18,7 @@ export async function seed(knex: Knex){
     login: 'usuarioteste',
     email: 'warebox@gmail.com',
     senha: 'usuarioteste123.',
-    whatsapp: '15998442471',
+    whatsapp: '9999999999',
     foto: '',
     id_grupo: 2
     }
