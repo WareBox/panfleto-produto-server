@@ -4,7 +4,9 @@ import routes from './routes';
 import cors from 'cors';
 
 const app = express();
+
 app.use(cors);
+
 app.all('/', function(req, res, next) {
   res.header("Access-Control-Expose-Headers", "*");
   res.header("Access-Control-Allow-Origin", "*");
