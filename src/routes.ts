@@ -9,6 +9,7 @@ const usuarioController = new UsuarioController
 
 routes.get('/usuarios', usuarioController.listar);
 routes.post('/usuarios', usuarioController.create);
+routes.post('/auth', usuarioController.auth);
 
 routes.post('/produtos', produtoController.create);
 routes.get('/produtos', produtoController.listar);
