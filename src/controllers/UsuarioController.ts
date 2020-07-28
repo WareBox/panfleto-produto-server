@@ -37,7 +37,7 @@ class UsuarioController{
      andWhere('senha',senha);
       
      if(auth[0] == null){
-      return response.json({return:false});
+      return response.json(false);
      }
      else{
      return response.json(auth);
