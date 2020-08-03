@@ -9,7 +9,7 @@ export async function up(knex: Knex){
     table.string('senha').notNullable();
     table.string('whatsapp').notNullable();
     table.string('foto');
-    table.integer('id_grupo').unsigned().notNullable().references('id').inTable('tb_grupo');
+    table.integer('id_grupo').unsigned().notNullable().references('id').inTable('tb_grupousuario');
   });
 }
 

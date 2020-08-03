@@ -16,7 +16,7 @@ class CategoriaController{
 
     await knex('tb_Categoria').insert(categoria);
 
-    return response.status(200).json({ message: 'Categoria criada com sucesso'});
+    return response.status(200).json({ message: 'Categoria criada com sucesso!'});
   }
 
   //Pegar lista com todas categorias¼
